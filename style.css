@@ -1,0 +1,34 @@
+
+
+body{
+    background-color: black;
+}
+
+h2{
+text-align: center;
+color: white;
+}
+
+.hashnode{
+    width: 8em;
+    aspect-ratio: 1;
+    border-radius: 1.25em;
+    background-color: #2962ff;
+    transform: rotate(25deg);
+    margin: auto;
+}
+
+.hashnode::before{
+    content: '';
+    border-radius: 50%;
+    background-color: #000000;
+    height: 3em;
+    aspect-ratio: 1;
+
+    
+}
+
+.hashnode{
+    display: grid;
+    place-items: center;
+}
